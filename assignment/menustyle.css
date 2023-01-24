@@ -1,0 +1,50 @@
+@font-face 
+{
+    font-family: myFirstFont;
+    src: url(sacramento-regular.woff);
+}
+@font-face {
+    font-family:mySecondFont ;
+    src: url(raleway-regular.woff);
+}
+@font-face {
+    font-family:myThirdFont ;
+    src: url(oswald-regular.woff);
+}
+body
+{
+    background-color: #FDFD96;
+}
+h1
+{
+    font-family: myFirstFont;
+    text-align: center;
+    font-style: italic;
+    font-size:1.5cm;
+}
+img
+{
+    width: 10cm;
+    height: 5cm;
+    mix-blend-mode: multiply;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+table
+{
+    border-spacing: 0.4in;
+}
+h5
+{
+    font-family: mySecondFont;
+}
+li
+{
+    font-family: myThirdFont;
+    font-style: italic;
+}
+ul
+{
+    list-style-type: circle;
+    background-color: #7f9bef;
+}
